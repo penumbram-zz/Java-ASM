@@ -1,0 +1,60 @@
+digraph test2 { 
+"begin"->" int x = 4 "
+" int x = 4 "->" int y = 4 ";
+" int y = 4 "->" if(x < y){";
+" if(x < y){"->" System.out.println( x < y ) ";
+" if(x < y){"->" if(y < x){";
+" System.out.println( x < y ) "->" }";
+" if(y < x){"->" System.out.println( y < x ) ";
+" if(y < x){"->" System.out.println( x = y ) ";
+" System.out.println( y < x ) "->" }";
+" System.out.println( x = y ) "->" }";
+" }" [label="} 
+
+In: 
+Out: 
+Def: 
+Use:"];
+" int x = 4 " [label="int x = 4  
+
+In: 
+Out: x 
+Def: x 
+Use:"];
+" int y = 4 " [label="int y = 4  
+
+In: x 
+Out: x y 
+Def: y 
+Use:"];
+" if(x < y){" [label="if(x < y){ 
+
+In: x y 
+Out: x y 
+Def: 
+Use: x y"];
+" System.out.println( x < y ) " [label="System.out.println( x < y )  
+
+In: 
+Out: 
+Def: 
+Use:"];
+" if(y < x){" [label="if(y < x){ 
+
+In: x y 
+Out: 
+Def: 
+Use: x y"];
+" System.out.println( y < x ) " [label="System.out.println( y < x )  
+
+In: 
+Out: 
+Def: 
+Use:"];
+" System.out.println( x = y ) " [label="System.out.println( x = y )  
+
+In: 
+Out: 
+Def: 
+Use:"];
+}

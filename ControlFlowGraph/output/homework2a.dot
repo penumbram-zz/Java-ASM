@@ -1,0 +1,37 @@
+digraph homework2a { 
+"begin"->" int a = 0 "
+" int a = 0 "->" int c = 5 ";
+" int c = 5 "->" int b = 3 ";
+" int b = 3 "->" b = b - 1 ";
+" b = b - 1 "->" return b ";
+" return b " [label="return b  
+
+In: b 
+Out: 
+Def: 
+Use: b"];
+" int a = 0 " [label="int a = 0  
+
+In: 
+Out: 
+Def: a 
+Use:"];
+" int c = 5 " [label="int c = 5  
+
+In: 
+Out: 
+Def: c 
+Use:"];
+" int b = 3 " [label="int b = 3  
+
+In: 
+Out: b 
+Def: b 
+Use:"];
+" b = b - 1 " [label="b = b - 1  
+
+In: b 
+Out: b 
+Def: b 
+Use: b"];
+}

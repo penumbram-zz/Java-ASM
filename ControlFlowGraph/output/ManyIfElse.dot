@@ -1,0 +1,76 @@
+digraph ManyIfElse { 
+"begin"->" int x = 1 "
+" int x = 1 "->" if (x == y) {";
+" if (x == y) {"->" y = 6 ";
+" if (x == y) {"->" if (x == 8) {";
+" y = 6 "->" return x ";
+" if (x == 8) {"->" y = 7 ";
+" if (x == 8) {"->" if (x == 6) {";
+" y = 7 "->" return x ";
+" if (x == 6) {"->" y = 1 ";
+" if (x == 6) {"->" if (x == 5) {";
+" y = 1 "->" return x ";
+" if (x == 5) {"->" y = 4 ";
+" if (x == 5) {"->" return x ";
+" y = 4 "->" return x ";
+" return x " [label="return x  
+
+In: x 
+Out: 
+Def: 
+Use: x"];
+" int x = 1 " [label="int x = 1  
+
+In: y 
+Out: y x 
+Def: x 
+Use:"];
+" if (x == y) {" [label="if (x == y) { 
+
+In: y x 
+Out: x 
+Def: 
+Use: y x"];
+" y = 6 " [label="y = 6  
+
+In: x 
+Out: x 
+Def: y 
+Use:"];
+" if (x == 8) {" [label="if (x == 8) { 
+
+In: x 
+Out: x 
+Def: 
+Use: x"];
+" y = 7 " [label="y = 7  
+
+In: x 
+Out: x 
+Def: y 
+Use:"];
+" if (x == 6) {" [label="if (x == 6) { 
+
+In: x 
+Out: x 
+Def: 
+Use: x"];
+" y = 1 " [label="y = 1  
+
+In: x 
+Out: x 
+Def: y 
+Use:"];
+" if (x == 5) {" [label="if (x == 5) { 
+
+In: x 
+Out: x 
+Def: 
+Use: x"];
+" y = 4 " [label="y = 4  
+
+In: x 
+Out: x 
+Def: y 
+Use:"];
+}

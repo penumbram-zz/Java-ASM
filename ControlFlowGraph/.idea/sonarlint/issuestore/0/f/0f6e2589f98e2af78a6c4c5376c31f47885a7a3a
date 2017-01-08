@@ -1,0 +1,11 @@
+
+:squid:S1166"%Either log or rethrow this exception.(”ı¾
+„"squid:ClassVariableVisibilityCheck"XMake sOpcodeNames a static final constant or non-public and provide accessors if needed.(«Á±ì
+Tsquid:S1118":Add a private constructor to hide the implicit public one.(´–ªøÿÿÿÿ
+2squid:S2386"Make this member "protected".(«Á±ì
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ƒãĞÜıÿÿÿÿ
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ıô”™ûÿÿÿÿ
+Gsquid:S1444"2Make this "public static sOpcodeNames" field final(«Á±ì
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+dsquid:UselessImportCheck";Remove this unused import 'cfg_live_variable_analysis.CFG'.(†×ÑÜ8ãİëø—+

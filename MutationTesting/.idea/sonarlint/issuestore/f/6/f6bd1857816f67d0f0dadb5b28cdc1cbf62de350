@@ -1,0 +1,9 @@
+
+bsquid:UselessImportCheck"4Remove this unused import 'org.objectweb.asm.Label'.(œÛ®÷ûÿÿÿÿ8ÕëöºŠ+
+8squid:S1220""Move this file to a named package.8œ¤à»Š+
+dsquid:UselessImportCheck"6Remove this unused import 'org.objectweb.asm.Opcodes'.(âÚÔùÿÿÿÿ8ë¬ñºŠ+
+gsquid:UselessImportCheck"@Remove this unused import 'org.objectweb.asm.tree.JumpInsnNode'.(›ÍÔùÿÿÿÿ
+ksquid:UselessImportCheck"DRemove this unused import 'org.objectweb.asm.tree.AbstractInsnNode'.(Ÿ¦Ìíúÿÿÿÿ
+fsquid:UselessImportCheck"=Remove this unused import 'org.objectweb.asm.tree.LabelNode'.(‘ÁÍ8ÕëöºŠ+
+psquid:UselessImportCheck"BRemove this unused import 'org.objectweb.asm.tree.LineNumberNode'.(æáìüÿÿÿÿ8ÕëöºŠ+
+Vsquid:UselessImportCheck".Remove this unused import 'java.util.HashSet'.(Ê‚êX8£–ùºŠ+

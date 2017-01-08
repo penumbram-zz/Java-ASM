@@ -1,0 +1,59 @@
+digraph carnegieMellonMethod { 
+"begin"->" int a = 10 "
+" int a = 10 "->" int b = 11 ";
+" int b = 11 "->" if (e) {";
+" if (e) {"->" a = 1 ";
+" if (e) {"->" c = a ";
+" a = 1 "->" b = 2 ";
+" b = 2 "->" }";
+" c = a "->" a = 4 ";
+" a = 4 "->" }";
+" int a = 10 " [label="int a = 10  
+
+In: e 
+Out: e a 
+Def: a 
+Use:"];
+" int b = 11 " [label="int b = 11  
+
+In: e a 
+Out: e a 
+Def: b 
+Use:"];
+" if (e) {" [label="if (e) { 
+
+In: e a 
+Out: a 
+Def: 
+Use: e"];
+" a = 1 " [label="a = 1  
+
+In: 
+Out: 
+Def: a 
+Use:"];
+" b = 2 " [label="b = 2  
+
+In: 
+Out: 
+Def: b 
+Use:"];
+" c = a " [label="c = a  
+
+In: a 
+Out: 
+Def: c 
+Use: a"];
+" a = 4 " [label="a = 4  
+
+In: 
+Out: 
+Def: a 
+Use:"];
+" }" [label="} 
+
+In: 
+Out: 
+Def: 
+Use:"];
+}

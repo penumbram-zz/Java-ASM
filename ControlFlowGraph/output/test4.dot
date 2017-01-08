@@ -1,0 +1,45 @@
+digraph test4 { 
+"begin"->" int x = 4 "
+" int x = 4 "->" int y = 5 ";
+" int y = 5 "->" while(x < y){";
+" while(x < y){"->" System.out.println( x < y ) ";
+" while(x < y){"->" }";
+" System.out.println( x < y ) "->" ++x ";
+" ++x "->" while(x < y){";
+" int x = 4 " [label="int x = 4  
+
+In: 
+Out: x 
+Def: x 
+Use:"];
+" int y = 5 " [label="int y = 5  
+
+In: x 
+Out: x y 
+Def: y 
+Use:"];
+" while(x < y){" [label="while(x < y){ 
+
+In: x y 
+Out: 
+Def: 
+Use: x y"];
+" System.out.println( x < y ) " [label="System.out.println( x < y )  
+
+In: 
+Out: 
+Def: 
+Use:"];
+" ++x " [label="++x  
+
+In: x y 
+Out: x y 
+Def: 
+Use:"];
+" }" [label="} 
+
+In: 
+Out: 
+Def: 
+Use:"];
+}

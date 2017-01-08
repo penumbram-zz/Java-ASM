@@ -1,0 +1,62 @@
+
+Ssquid:S1226">Introduce a new variable instead of reusing the parameter "x".(´ëÿÛ
+Xsquid:S1226">Introduce a new variable instead of reusing the parameter "y".(–¼Ëøÿÿÿÿ
+Jsquid:S1854"5Remove this useless assignment to local variable "a".(ï•«±
+Rsquid:S1226">Introduce a new variable instead of reusing the parameter "y".(â¥ð)
+;squid:S1481"&Remove this unused "c" local variable.(ôÔ®ä
+Jsquid:S1854"5Remove this useless assignment to local variable "a".(ÂÆ¯²
+T
+squid:S106";Replace this usage of System.out or System.err by a logger.(¦„—€þÿÿÿÿ
+Rsquid:S1226">Introduce a new variable instead of reusing the parameter "y".(â¥ð)
+Isquid:S1854"5Remove this useless assignment to local variable "y".(â¥ð)
+Osquid:S1854"5Remove this useless assignment to local variable "y".(–¼Ëøÿÿÿÿ
+Isquid:S1854"5Remove this useless assignment to local variable "y".(â¥ð)
+Ssquid:S1226">Introduce a new variable instead of reusing the parameter "y".(˜Î™Ì
+Jsquid:S1854"5Remove this useless assignment to local variable "x".(´ëÿÛ
+Osquid:S1854"5Remove this useless assignment to local variable "y".(ë”ÁÍÿÿÿÿÿ
+O
+squid:S106";Replace this usage of System.out or System.err by a logger.(ŽŠá¥
+T
+squid:S106";Replace this usage of System.out or System.err by a logger.(¿°óâþÿÿÿÿ
+;squid:S1481"&Remove this unused "a" local variable.(€Žôá
+Jsquid:S1854"5Remove this useless assignment to local variable "c".(ôÔ®ä
+O
+squid:S106";Replace this usage of System.out or System.err by a logger.(Áíâå
+Jsquid:S1854"5Remove this useless assignment to local variable "a".(€Žôá
+[squid:S1192"FDefine a constant instead of duplicating this literal "x < y" 4 times.(Áíâå
+Ssquid:S1226">Introduce a new variable instead of reusing the parameter "c".(âŸù”
+Xsquid:S1226">Introduce a new variable instead of reusing the parameter "y".(–¼Ëøÿÿÿÿ
+isquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®…Û²ûÿÿÿÿ
+Jsquid:S1854"5Remove this useless assignment to local variable "b".(°žò‹
+O
+squid:S106";Replace this usage of System.out or System.err by a logger.(¹½¹Ü
+T
+squid:S106";Replace this usage of System.out or System.err by a logger.( ñ†”üÿÿÿÿ
+csquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºëë
+Osquid:S1854"5Remove this useless assignment to local variable "y".(–¼Ëøÿÿÿÿ
+Jsquid:S1854"5Remove this useless assignment to local variable "b".(«ÝÂ€
+Xsquid:S1226">Introduce a new variable instead of reusing the parameter "y".(ë”ÁÍÿÿÿÿÿ
+O
+squid:S106";Replace this usage of System.out or System.err by a logger.(Áíâå
+isquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒŠïÈûÿÿÿÿ
+Jsquid:S1854"5Remove this useless assignment to local variable "b".(¿Ìó÷
+O
+squid:S106";Replace this usage of System.out or System.err by a logger.(èÓÙï
+O
+squid:S106";Replace this usage of System.out or System.err by a logger.(Áíâå
+T
+squid:S106";Replace this usage of System.out or System.err by a logger.(÷£š÷ûÿÿÿÿ
+;squid:S1481"&Remove this unused "b" local variable.(¿Ìó÷
+1squid:S1220""Move this file to a named package.
+O
+squid:S106";Replace this usage of System.out or System.err by a logger.(ìñ³ò
+Xsquid:S1226">Introduce a new variable instead of reusing the parameter "x".(êž•÷ûÿÿÿÿ
+Jsquid:S1854"5Remove this useless assignment to local variable "c".(âŸù”
+csquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(â’Õ
+T
+squid:S106";Replace this usage of System.out or System.err by a logger.(ñ¢õåúÿÿÿÿ
+O
+squid:S106";Replace this usage of System.out or System.err by a logger.(Áíâå
+Osquid:S1854"5Remove this useless assignment to local variable "x".(êž•÷ûÿÿÿÿ
+Jsquid:S1854"5Remove this useless assignment to local variable "b".(°žò‹
+Jsquid:S1854"5Remove this useless assignment to local variable "y".(˜Î™Ì

@@ -1,0 +1,108 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html id="htmlId">
+<head>
+  <title>Coverage Report :: CustomClassWriter</title>
+  <style type="text/css">
+    @import "../../.css/coverage.css";
+  </style>
+</head>
+
+<body>
+<div class="header"></div>
+
+<div class="content">
+<div class="breadCrumbs">
+    [ <a href="../../index.html">all classes</a> ]
+    [ <a href="../index.html">&lt;empty package name&gt;</a> ]
+</div>
+
+<h1>Coverage Summary for Class: CustomClassWriter (&lt;empty package name&gt;)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">CustomClassWriter</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 3)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 6)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<div class="sourceCode"><i>1</i>&nbsp;import org.objectweb.asm.*;
+<i>2</i>&nbsp;
+<i>3</i>&nbsp;/**
+<i>4</i>&nbsp; * Created by tolgacaner on 22/11/16.
+<i>5</i>&nbsp; */
+<i>6</i>&nbsp;public class CustomClassWriter extends ClassWriter {
+<i>7</i>&nbsp;
+<i>8</i>&nbsp;
+<i>9</i>&nbsp;    public CustomClassWriter() {
+<b class="nc"><i>10</i>&nbsp;        super(262144);</b>
+<i>11</i>&nbsp;    }
+<i>12</i>&nbsp;
+<i>13</i>&nbsp;    @Override
+<i>14</i>&nbsp;    public void visit(int var1, int var2, String var3, String var4, String var5, String[] var6) {
+<b class="nc"><i>15</i>&nbsp;        super.visit(var1, var2, var3, var4, var5, var6);</b>
+<i>16</i>&nbsp;    }
+<i>17</i>&nbsp;
+<i>18</i>&nbsp;    @Override
+<i>19</i>&nbsp;    public MethodVisitor visitMethod(int i, final String s, String s1, String s2, String[] strings) {
+<b class="nc"><i>20</i>&nbsp;        MethodVisitor mv = super.visitMethod(i, s, s1, s2, strings);</b>
+<b class="nc"><i>21</i>&nbsp;        if (s.equalsIgnoreCase(&quot;&lt;init&gt;&quot;))</b>
+<b class="nc"><i>22</i>&nbsp;            return new MethodAdapter(mv); //not caring, generic</b>
+<b class="nc"><i>23</i>&nbsp;        return new CustomMethodAdapter(mv,s);</b>
+<i>24</i>&nbsp;    }
+<i>25</i>&nbsp;}
+</div>
+</div>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2016-11-29 19:39</div>
+</div>
+</body>
+</html>

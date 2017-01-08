@@ -1,0 +1,10 @@
+
+›squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(™ˆ«÷úÿÿÿÿ
+esquid:UselessImportCheck">Remove this unused import 'org.objectweb.asm.tree.MethodNode'.(Ê€ıÿÿÿÿÿ
+›squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ßşŸüÿÿÿÿ
+1squid:S1220""Move this file to a named package.
+–squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ï±Â°
+–squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(›†„Æ
+–squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(½ë¯À
+•squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(±©‰&
+‰"squid:ClassVariableVisibilityCheck"]Make currentMethodName a static final constant or non-public and provide accessors if needed.(“Å±ø

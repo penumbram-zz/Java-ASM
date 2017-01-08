@@ -1,0 +1,75 @@
+digraph test1 { 
+"begin"->" int x = 3 "
+" int x = 3 "->" int y = 5 ";
+" int y = 5 "->" if(x <= 2){";
+" if(x <= 2){"->" if(y >= 4){";
+" if(x <= 2){"->" if(y >= 4){";
+" if(y >= 4){"->" System.out.println( x <=2 and y >= 4 Tolga ) ";
+" if(y >= 4){"->" System.out.println( x <= 2 and y < 4 ) ";
+" System.out.println( x <=2 and y >= 4 Tolga ) "->" }";
+" System.out.println( x <= 2 and y < 4 ) "->" }";
+" if(y >= 4){"->" System.out.println( x > 2 and y >= 4 ) ";
+" if(y >= 4){"->" System.out.println( x < 2 and y < 4 ) ";
+" System.out.println( x > 2 and y >= 4 ) "->" }";
+" System.out.println( x < 2 and y < 4 ) "->" }";
+" int x = 3 " [label="int x = 3  
+
+In: 
+Out: x 
+Def: x 
+Use:"];
+" }" [label="} 
+
+In: 
+Out: 
+Def: 
+Use:"];
+" int y = 5 " [label="int y = 5  
+
+In: x 
+Out: x y 
+Def: y 
+Use:"];
+" if(x <= 2){" [label="if(x <= 2){ 
+
+In: x y 
+Out: y 
+Def: 
+Use: x"];
+" if(y >= 4){" [label="if(y >= 4){ 
+
+In: y 
+Out: 
+Def: 
+Use: y"];
+" System.out.println( x <=2 and y >= 4 Tolga ) " [label="System.out.println( x <=2 and y >= 4 Tolga )  
+
+In: 
+Out: 
+Def: 
+Use:"];
+" System.out.println( x <= 2 and y < 4 ) " [label="System.out.println( x <= 2 and y < 4 )  
+
+In: 
+Out: 
+Def: 
+Use:"];
+" if(y >= 4){" [label="if(y >= 4){ 
+
+In: y 
+Out: 
+Def: 
+Use: y"];
+" System.out.println( x > 2 and y >= 4 ) " [label="System.out.println( x > 2 and y >= 4 )  
+
+In: 
+Out: 
+Def: 
+Use:"];
+" System.out.println( x < 2 and y < 4 ) " [label="System.out.println( x < 2 and y < 4 )  
+
+In: 
+Out: 
+Def: 
+Use:"];
+}

@@ -1,0 +1,39 @@
+digraph OnDemandFor { 
+"begin"->" if (x > 0) {"
+" if (x > 0) {"->" for (int i = 0  i < x  i++) {";
+" if (x > 0) {"->" System.out.println( input was negative ) ";
+" for (int i = 0  i < x  i++) {"->" System.out.println(i +   is smaller than   + x) ";
+" System.out.println(i +   is smaller than   + x) "->" for (int i = 0  i < x  i++) {";
+" for (int i = 0  i < x  i++) {"->" }";
+" System.out.println( input was negative ) "->" }";
+" if (x > 0) {" [label="if (x > 0) { 
+
+In: x i 
+Out: x i 
+Def: 
+Use: x"];
+" for (int i = 0  i < x  i++) {" [label="for (int i = 0  i < x  i++) { 
+
+In: x i 
+Out: x i 
+Def: i 
+Use: x i"];
+" System.out.println(i +   is smaller than   + x) " [label="System.out.println(i +   is smaller than   + x)  
+
+In: x i 
+Out: 
+Def: 
+Use: x i"];
+" System.out.println( input was negative ) " [label="System.out.println( input was negative )  
+
+In: 
+Out: 
+Def: 
+Use:"];
+" }" [label="} 
+
+In: 
+Out: 
+Def: 
+Use:"];
+}

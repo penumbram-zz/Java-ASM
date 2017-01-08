@@ -1,0 +1,8 @@
+
+6squid:S1643"Use a StringBuilder instead.(çÎò…ıÿÿÿÿ
+1squid:S1643"Use a StringBuilder instead.(³ıÛ
+nsquid:S1450"YRemove the "lineBinder" field and declare it as a local variable in the relevant methods.(úÅ³‚
+…squid:S1319"kThe type of the "set" object should be an interface such as "Set" rather than the implementation "HashSet".(Ğ¬À¸øÿÿÿÿ
+1squid:S1643"Use a StringBuilder instead.(¥ã¡ß
+Nsquid:S1118":Add a private constructor to hide the implicit public one.(Æ—Û
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ıô”™ûÿÿÿÿ

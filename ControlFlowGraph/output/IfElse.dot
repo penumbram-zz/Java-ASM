@@ -1,0 +1,31 @@
+digraph IfElse { 
+"begin"->" if (x < 3) {"
+" if (x < 3) {"->" x = 6 ";
+" if (x < 3) {"->" x = 7 ";
+" x = 6 "->" }";
+" x = 7 "->" }";
+" if (x < 3) {" [label="if (x < 3) { 
+
+In: x 
+Out: 
+Def: 
+Use: x"];
+" x = 6 " [label="x = 6  
+
+In: 
+Out: 
+Def: x 
+Use:"];
+" x = 7 " [label="x = 7  
+
+In: 
+Out: 
+Def: x 
+Use:"];
+" }" [label="} 
+
+In: 
+Out: 
+Def: 
+Use:"];
+}

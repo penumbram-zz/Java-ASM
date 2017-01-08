@@ -1,0 +1,132 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html id="htmlId">
+<head>
+  <title>Coverage Report :: CalculatorTests</title>
+  <style type="text/css">
+    @import "../../.css/coverage.css";
+  </style>
+</head>
+
+<body>
+<div class="header"></div>
+
+<div class="content">
+<div class="breadCrumbs">
+    [ <a href="../../index.html">all classes</a> ]
+    [ <a href="../index.html">&lt;empty package name&gt;</a> ]
+</div>
+
+<h1>Coverage Summary for Class: CalculatorTests (&lt;empty package name&gt;)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">CalculatorTests</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (1/ 1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (5/ 5)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (13/ 13)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<div class="sourceCode"><i>1</i>&nbsp;import org.junit.Test;
+<i>2</i>&nbsp;
+<i>3</i>&nbsp;import static org.junit.Assert.assertEquals;
+<i>4</i>&nbsp;
+<i>5</i>&nbsp;/**
+<i>6</i>&nbsp; * Created by tolgacaner on 23/11/16.
+<i>7</i>&nbsp; */
+<b class="fc"><i>8</i>&nbsp;public class CalculatorTests {</b>
+<i>9</i>&nbsp;
+<i>10</i>&nbsp;    @Test
+<i>11</i>&nbsp;    public void testSub() {
+<b class="fc"><i>12</i>&nbsp;        Calculator calc = new Calculator();</b>
+<b class="fc"><i>13</i>&nbsp;        assertEquals(1, calc.sub(3, 2));</b>
+<b class="fc"><i>14</i>&nbsp;    }</b>
+<i>15</i>&nbsp;
+<i>16</i>&nbsp;    @Test
+<i>17</i>&nbsp;    public void testDivide() {
+<b class="fc"><i>18</i>&nbsp;        Calculator calc = new Calculator();</b>
+<i>19</i>&nbsp;
+<b class="fc"><i>20</i>&nbsp;        assertEquals(4, calc.div(8, 2));</b>
+<b class="fc"><i>21</i>&nbsp;    }</b>
+<i>22</i>&nbsp;
+<i>23</i>&nbsp;    @Test
+<i>24</i>&nbsp;    public void testMult() {
+<b class="fc"><i>25</i>&nbsp;        Calculator calc = new Calculator();</b>
+<i>26</i>&nbsp;
+<b class="fc"><i>27</i>&nbsp;        assertEquals(10, calc.mult(5, 2));</b>
+<b class="fc"><i>28</i>&nbsp;    }</b>
+<i>29</i>&nbsp;
+<i>30</i>&nbsp;    @Test
+<i>31</i>&nbsp;    public void complex() {
+<b class="fc"><i>32</i>&nbsp;        Calculator calc = new Calculator();</b>
+<b class="fc"><i>33</i>&nbsp;        calc.other();</b>
+<b class="fc"><i>34</i>&nbsp;    }</b>
+<i>35</i>&nbsp;    /*
+<i>36</i>&nbsp;    @Test
+<i>37</i>&nbsp;    public void testAdd() {
+<i>38</i>&nbsp;        Calculator calc = new Calculator();
+<i>39</i>&nbsp;        assertEquals(5, calc.add(3, 2));
+<i>40</i>&nbsp;    }
+<i>41</i>&nbsp;    */
+<i>42</i>&nbsp;    /*
+<i>43</i>&nbsp;    @Test
+<i>44</i>&nbsp;    public void uncoveredtest() {
+<i>45</i>&nbsp;        Calculator calc = new Calculator();
+<i>46</i>&nbsp;        calc.uncovered();
+<i>47</i>&nbsp;    }
+<i>48</i>&nbsp;    */
+<i>49</i>&nbsp;}
+</div>
+</div>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2016-11-29 19:39</div>
+</div>
+</body>
+</html>

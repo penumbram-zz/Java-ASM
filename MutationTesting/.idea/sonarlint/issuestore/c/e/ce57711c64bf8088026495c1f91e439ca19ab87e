@@ -1,0 +1,39 @@
+
+isquid:S1132"MMove the "Method3" string literal on the left side of this string comparison.(ìóœ8ÒêŸ‡‹+
+Fsquid:S1481"*Remove this unused "count" local variable.(æÕ¿¼8ö°üŠ+
+ssquid:UselessImportCheck"JRemove this unused import 'com.sun.org.apache.bcel.internal.generic.IFNE'.(×½ Š8º€ÕøŠ+
+Psquid:S1066"/Merge this if statement with the enclosing one.(äÄõÁüÿÿÿÿ8ö°üŠ+
+Xsquid:S1191"<Replace this usage of Sun classes by ones from the Java API.(×½ Š8¡“«øŠ+
+Rsquid:S1481"1Remove this unused "jumpInsnNode" local variable.(ÈÜâÄøÿÿÿÿ8ö°üŠ+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(Ïêäëùÿÿÿÿ8ö°üŠ+
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(åÉÙø8ö°üŠ+
+xsquid:UselessImportCheck"JRemove this unused import 'com.sun.org.apache.bcel.internal.generic.IFEQ'.(ÊŞ©Óşÿÿÿÿ8¤ıï½Š+
+hsquid:S1132"LMove the "<init>" string literal on the left side of this string comparison.(´ŒÏ8ö°üŠ+
+Usquid:S1854"9Remove this useless assignment to local variable "count".(æÕ¿¼8ö°üŠ+
+n
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ŸÑÎùÿÿÿÿ8ö°üŠ+
+\squid:S1147";Remove this call to "exit" or ensure it is really required.(ôá¤“úÿÿÿÿ8şä°üŠ+
+isquid:S1132"MMove the "Method1" string literal on the left side of this string comparison.(ìóœ8ÈŸ‡‹+
+Usquid:S1118":Add a private constructor to hide the implicit public one.(É•êu8ñ²üŠ+
+Asquid:S1166"%Either log or rethrow this exception.(”ı¾8şä°üŠ+
+isquid:S1132"MMove the "Method2" string literal on the left side of this string comparison.(ìóœ8ÒêŸ‡‹+
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Öóë”ÿÿÿÿÿ8Ä¹ÓÖ‹+
+8squid:S1220""Move this file to a named package.8®¥à»Š+
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÿİƒ²şÿÿÿÿ8¯ï¨‡‹+
+t
+squid:S135"YReduce the total number of break and continue statements in this loop to use at most one.(è—©š8ã¨‡‹+
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(â‚§ûÿÿÿÿ8ÛÍ…‰‹+
+]squid:S1191"<Replace this usage of Sun classes by ones from the Java API.(ÊŞ©Óşÿÿÿÿ8ÈÍï½Š+
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Öóë”ÿÿÿÿÿ8›¾¼Š+
+=squid:S2129"!Remove this "Integer" constructor(ÑıÂš8şä°üŠ+
+Jsquid:S1125")Remove the literal "false" boolean value.(§¬¤Óúÿÿÿÿ8ö°üŠ+
+=squid:S2129"!Remove this "Integer" constructor(ÑıÂš8şä°üŠ+
+‡squid:S1319"kThe type of the "abc" object should be an interface such as "Map" rather than the implementation "HashMap".(„ı«ä8–àÕ½Š+
+asquid:S1854"@Remove this useless assignment to local variable "jumpInsnNode".(ÈÜâÄøÿÿÿÿ8ö°üŠ+
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ä°ÈÕ8›¾¼Š+
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8şä°üŠ+
+Psquid:S2864"4Iterate over the "entrySet" instead of the "keySet".(ËÆŸ8ö°üŠ+
+csquid:UnusedPrivateMethod"4Remove this unused private "changeClassNode" method.(³ıâµøÿÿÿÿ8ÛÍ…‰‹+
+Ksquid:S1066"/Merge this if statement with the enclosing one.(«ô¾ˆ8ö°üŠ+
+› squid:MethodCyclomaticComplexity"eThe Cyclomatic Complexity of this method "changeClassNode" is 17 which is greater than 10 authorized.(³ıâµøÿÿÿÿ8£¡±üŠ+

@@ -1,0 +1,5 @@
+
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(òñôÚøÿÿÿÿ
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(¤¯”øÿÿÿÿ
+‡squid:S1319"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(¼Œ¥ûÿÿÿÿ
+©squid:S1160"Refactor this method to throw at most one checked exception instead of: org.objectweb.asm.tree.analysis.AnalyzerException, java.io.IOException(•»ª©şÿÿÿÿ

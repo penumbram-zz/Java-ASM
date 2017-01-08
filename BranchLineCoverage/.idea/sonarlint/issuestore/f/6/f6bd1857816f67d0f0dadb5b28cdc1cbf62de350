@@ -1,0 +1,7 @@
+
+ksquid:UselessImportCheck"DRemove this unused import 'org.objectweb.asm.tree.AbstractInsnNode'.(Ÿ¦Ìíúÿÿÿÿ
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‰²º˜
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‰²º˜
+1squid:S1220""Move this file to a named package.
+gsquid:UselessImportCheck"@Remove this unused import 'org.objectweb.asm.tree.JumpInsnNode'.(›ÍÔžùÿÿÿÿ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(“¿þ£þÿÿÿÿ

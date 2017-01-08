@@ -1,0 +1,59 @@
+digraph coloradoStateMethod { 
+"begin"->" int b = 0 "
+" int b = 0 "->" int c = 0 ";
+" int c = 0 "->" int a = 0 ";
+" int a = 0 "->" b = a + 1 ";
+" b = a + 1 "->" c = c + b ";
+" c = c + b "->" a = b * 2 ";
+" a = b * 2 "->" } while(a < 9) ";
+" } while(a < 9) "->" return c ";
+" } while(a < 9) "->" b = a + 1 ";
+" int b = 0 " [label="int b = 0  
+
+In: 
+Out: 
+Def: b 
+Use:"];
+" int c = 0 " [label="int c = 0  
+
+In: 
+Out: c 
+Def: c 
+Use:"];
+" int a = 0 " [label="int a = 0  
+
+In: c 
+Out: c a 
+Def: a 
+Use:"];
+" b = a + 1 " [label="b = a + 1  
+
+In: c a 
+Out: b c 
+Def: b 
+Use: a"];
+" c = c + b " [label="c = c + b  
+
+In: b c 
+Out: b c 
+Def: c 
+Use: b c"];
+" a = b * 2 " [label="a = b * 2  
+
+In: b c 
+Out: c a 
+Def: a 
+Use: b"];
+" } while(a < 9) " [label="} while(a < 9)  
+
+In: c a 
+Out: c a 
+Def: 
+Use: a"];
+" return c " [label="return c  
+
+In: c 
+Out: 
+Def: 
+Use: c"];
+}

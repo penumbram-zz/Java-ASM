@@ -1,0 +1,132 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html id="htmlId">
+<head>
+  <title>Coverage Report :: CustomClassVisitor</title>
+  <style type="text/css">
+    @import "../../.css/coverage.css";
+  </style>
+</head>
+
+<body>
+<div class="header"></div>
+
+<div class="content">
+<div class="breadCrumbs">
+    [ <a href="../../index.html">all classes</a> ]
+    [ <a href="../index.html">&lt;empty package name&gt;</a> ]
+</div>
+
+<h1>Coverage Summary for Class: CustomClassVisitor (&lt;empty package name&gt;)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">CustomClassVisitor</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 4)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 7)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<div class="sourceCode"><i>1</i>&nbsp;import org.objectweb.asm.*;
+<i>2</i>&nbsp;import org.objectweb.asm.tree.MethodNode;
+<i>3</i>&nbsp;
+<i>4</i>&nbsp;/**
+<i>5</i>&nbsp; * Created by tolgacaner on 20/11/16.
+<i>6</i>&nbsp; */
+<b class="nc"><i>7</i>&nbsp;public class CustomClassVisitor implements ClassVisitor {</b>
+<i>8</i>&nbsp;
+<i>9</i>&nbsp;    public String currentMethodName;
+<i>10</i>&nbsp;
+<i>11</i>&nbsp;    public void visit(int i, int i1, String s, String s1, String s2, String[] strings) {
+<i>12</i>&nbsp;
+<i>13</i>&nbsp;    }
+<i>14</i>&nbsp;
+<i>15</i>&nbsp;    public void visitSource(String s, String s1) {
+<i>16</i>&nbsp;
+<i>17</i>&nbsp;    }
+<i>18</i>&nbsp;
+<i>19</i>&nbsp;    public void visitOuterClass(String s, String s1, String s2) {
+<i>20</i>&nbsp;
+<i>21</i>&nbsp;    }
+<i>22</i>&nbsp;
+<i>23</i>&nbsp;    public AnnotationVisitor visitAnnotation(String s, boolean b) {
+<b class="nc"><i>24</i>&nbsp;        return null;</b>
+<i>25</i>&nbsp;    }
+<i>26</i>&nbsp;
+<i>27</i>&nbsp;    public void visitAttribute(Attribute attribute) {
+<i>28</i>&nbsp;
+<i>29</i>&nbsp;    }
+<i>30</i>&nbsp;
+<i>31</i>&nbsp;    public void visitInnerClass(String s, String s1, String s2, int i) {
+<i>32</i>&nbsp;
+<i>33</i>&nbsp;    }
+<i>34</i>&nbsp;
+<i>35</i>&nbsp;    public FieldVisitor visitField(int i, String s, String s1, String s2, Object o) {
+<b class="nc"><i>36</i>&nbsp;        return null;</b>
+<i>37</i>&nbsp;    }
+<i>38</i>&nbsp;
+<i>39</i>&nbsp;    public MethodVisitor visitMethod(int i, String s, String s1, String s2, String[] strings) {
+<b class="nc"><i>40</i>&nbsp;        CustomMethodVisitor customMethodVisitor = new CustomMethodVisitor();</b>
+<b class="nc"><i>41</i>&nbsp;        currentMethodName = s;</b>
+<b class="nc"><i>42</i>&nbsp;        customMethodVisitor.methodName = s;</b>
+<b class="nc"><i>43</i>&nbsp;        return  customMethodVisitor;</b>
+<i>44</i>&nbsp;    }
+<i>45</i>&nbsp;
+<i>46</i>&nbsp;    public void visitEnd() {
+<i>47</i>&nbsp;
+<i>48</i>&nbsp;    }
+<i>49</i>&nbsp;}
+</div>
+</div>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2016-11-29 19:39</div>
+</div>
+</body>
+</html>

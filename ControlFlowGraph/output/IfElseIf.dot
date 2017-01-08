@@ -1,0 +1,53 @@
+digraph IfElseIf { 
+"begin"->" int x = 1 "
+" int x = 1 "->" if (x == y) {";
+" if (x == y) {"->" y = 6 ";
+" if (x == y) {"->" if (x == 8) {";
+" y = 6 "->" return x ";
+" if (x == 8) {"->" System.out.println( x == 7 ) ";
+" if (x == 8) {"->" y = 1 ";
+" System.out.println( x == 7 ) "->" return x ";
+" y = 1 "->" return x ";
+" int x = 1 " [label="int x = 1  
+
+In: y 
+Out: y x 
+Def: x 
+Use:"];
+" if (x == y) {" [label="if (x == y) { 
+
+In: y x 
+Out: x 
+Def: 
+Use: y x"];
+" y = 6 " [label="y = 6  
+
+In: x 
+Out: x 
+Def: y 
+Use:"];
+" if (x == 8) {" [label="if (x == 8) { 
+
+In: x 
+Out: x 
+Def: 
+Use: x"];
+" System.out.println( x == 7 ) " [label="System.out.println( x == 7 )  
+
+In: x 
+Out: x 
+Def: 
+Use:"];
+" y = 1 " [label="y = 1  
+
+In: x 
+Out: x 
+Def: y 
+Use:"];
+" return x " [label="return x  
+
+In: x 
+Out: 
+Def: 
+Use: x"];
+}

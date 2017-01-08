@@ -1,0 +1,4 @@
+
+1squid:S1220""Move this file to a named package.
+™ squid:MethodCyclomaticComplexity"cThe Cyclomatic Complexity of this method "visitJumpInsn" is 15 which is greater than 10 authorized.(ðØ·¡üÿÿÿÿ8ö²£¼Š+
+dsquid:UselessImportCheck"6Remove this unused import 'org.objectweb.asm.Opcodes'.(žâÚÔùÿÿÿÿ8 ×›¼Š+

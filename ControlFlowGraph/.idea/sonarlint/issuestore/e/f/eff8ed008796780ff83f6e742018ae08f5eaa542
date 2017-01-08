@@ -1,0 +1,54 @@
+
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(Ã ·¼üÿÿÿÿ
+"squid:ClassVariableVisibilityCheck"SMake isFirst a static final constant or non-public and provide accessors if needed.(¶áÏ
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(Åñ­õşÿÿÿÿ
+ˆ"squid:ClassVariableVisibilityCheck"WMake instruction a static final constant or non-public and provide accessors if needed.(§›ûşÿÿÿÿ
+‘ squid:MethodCyclomaticComplexity"gThe Cyclomatic Complexity of this method "getSuccessorLines" is 12 which is greater than 10 authorized.(‘Éƒ
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(¤¯”øÿÿÿÿ
+Dsquid:S1066"/Merge this if statement with the enclosing one.(¥È´Õ
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(Åñ­õşÿÿÿÿ
+bsquid:S1871"MThis branch's code block is the same as the block for the branch on line 163.(›ûä·
+‹"squid:ClassVariableVisibilityCheck"ZMake lineOperations a static final constant or non-public and provide accessors if needed.(øœØÄûÿÿÿÿ
+|"squid:ClassVariableVisibilityCheck"PMake line a static final constant or non-public and provide accessors if needed.(å“¤
+‰"squid:ClassVariableVisibilityCheck"]Make currentLineNumber a static final constant or non-public and provide accessors if needed.(§‘ôæ
+Š"squid:ClassVariableVisibilityCheck"^Make previousLineNumber a static final constant or non-public and provide accessors if needed.(°—Ú
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(õ°Éÿÿÿÿÿ
+Xsquid:S1155">Use isEmpty() to check whether the collection is empty or not.(ôĞÊşÿÿÿÿ
+Msquid:S1444"8Make this "public static previousLineNumber" field final(°—Ú
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(å“¤
+Ssquid:S1155">Use isEmpty() to check whether the collection is empty or not.(Ìñš
+Xsquid:S2583"CChange this condition so that it does not always evaluate to "true"(è¦È„
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(øœØÄûÿÿÿÿ
+Bsquid:S1444"-Make this "public static isFirst" field final(¶áÏ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(°—Ú
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(Œı±Ö
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(§‘ôæ
+Psquid:S2696"6Make the enclosing method "static" or remove this set.(ÚÜôúÿÿÿÿ
+Psquid:S2696"6Make the enclosing method "static" or remove this set.(î¦ÄŞÿÿÿÿÿ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(¶áÏ
+Ksquid:S2696"6Make the enclosing method "static" or remove this set.(şÍ•Ã
+=squid:S1125"(Remove the literal "true" boolean value.(—·ö 
+Ksquid:S2696"6Make the enclosing method "static" or remove this set.(şÍ•Ã
+’ squid:MethodCyclomaticComplexity"cThe Cyclomatic Complexity of this method "getInOutScore" is 19 which is greater than 10 authorized.(ù›Ã­ûÿÿÿÿ
+Lsquid:S1444"7Make this "public static currentLineNumber" field final(§‘ôæ
+r
+squid:S135"YReduce the total number of break and continue statements in this loop to use at most one.(¡ŞÙöıÿÿÿÿ
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(Ã ·¼üÿÿÿÿ
+}"squid:ClassVariableVisibilityCheck"QMake graph a static final constant or non-public and provide accessors if needed.(ŸƒÛã
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(Åñ­õşÿÿÿÿ
+Psquid:S2696"6Make the enclosing method "static" or remove this set.(Š¨öûÿÿÿÿ
+Qsquid:S1444"<Make this "public static isPreviousNodeJumpNode" field final(ÕÄÀ©
+Zsquid:UnusedPrivateMethod"2Remove this unused private "getInOutScore" method.(ù›Ã­ûÿÿÿÿ
+Ksquid:S2696"6Make the enclosing method "static" or remove this set.(„Ê×ï
+Ksquid:S2696"6Make the enclosing method "static" or remove this set.(şÍ•Ã
+6squid:S1643"Use a StringBuilder instead.(¡¦¨½ıÿÿÿÿ
+>squid:S1125")Remove the literal "false" boolean value.(ô®Åº
+6squid:S1643"Use a StringBuilder instead.(¡¦¨½ıÿÿÿÿ
+"squid:ClassVariableVisibilityCheck"bMake isPreviousNodeJumpNode a static final constant or non-public and provide accessors if needed.(ÕÄÀ©
+‚squid:S1319"mThe return type of this method should be an interface such as "Set" rather than the implementation "HashSet".(‘Éƒ
+‡"squid:ClassVariableVisibilityCheck"VMake pLabelNode a static final constant or non-public and provide accessors if needed.(õ°Éÿÿÿÿÿ
+Dsquid:S1066"/Merge this if statement with the enclosing one.(¥È´Õ
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(ÕÄÀ©

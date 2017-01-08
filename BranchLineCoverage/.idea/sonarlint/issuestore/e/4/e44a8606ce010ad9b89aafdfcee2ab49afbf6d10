@@ -1,0 +1,39 @@
+
+…squid:S1319"pThe type of the "branches" object should be an interface such as "Set" rather than the implementation "HashSet".(Ÿñåµ
+msquid:S1132"SMove the "uncoveredtest" string literal on the left side of this string comparison.(Ô§‹ˆøÿÿÿÿ
+1squid:S1220""Move this file to a named package.
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¯ó•åıÿÿÿÿ8÷¦¶†‹+
+bsquid:S1132"MMove the "complex" string literal on the left side of this string comparison.(¾éõ§
+T
+squid:S106";Replace this usage of System.out or System.err by a logger.(‡Ëàøøÿÿÿÿ
+gsquid:S1132"MMove the "testAdd" string literal on the left side of this string comparison.(˜ÒÒùùÿÿÿÿ
+jsquid:S1132"PMove the "testDivide" string literal on the left side of this string comparison.(¤ËÅøøÿÿÿÿ
+O
+squid:S106";Replace this usage of System.out or System.err by a logger.(ßñÁÖ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+‡squid:S1319"mThe type of the "lines" object should be an interface such as "Set" rather than the implementation "HashSet".(İîÅóÿÿÿÿÿ
+Usquid:S1147";Remove this call to "exit" or ensure it is really required.(ôá¤“úÿÿÿÿ
+Osquid:S1118":Add a private constructor to hide the implicit public one.(àªÅö
+Ksquid:S2696"6Make the enclosing method "static" or remove this set.(¡©‰‹
+:squid:S1166"%Either log or rethrow this exception.(”ı¾
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¾éöé8«ö¶†‹+
+Jsquid:S2696"6Make the enclosing method "static" or remove this set.(ÏñàN
+Psquid:S2696"6Make the enclosing method "static" or remove this set.(­®‚Åüÿÿÿÿ
+bsquid:S1132"MMove the "testSub" string literal on the left side of this string comparison.(µÔ‚
+Jsquid:S2696"6Make the enclosing method "static" or remove this set.(—šÖN
+hsquid:S1132"LMove the "<init>" string literal on the left side of this string comparison.(´ŒÏ8÷¦¶†‹+
+T
+squid:S106";Replace this usage of System.out or System.err by a logger.(±€©ùÿÿÿÿ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÕáÀëÿÿÿÿÿ
+hsquid:S1132"NMove the "testMult" string literal on the left side of this string comparison.(÷¬ÿÿÿÿÿ
+˜ squid:MethodCyclomaticComplexity"iThe Cyclomatic Complexity of this method "getTestedMethodName" is 14 which is greater than 10 authorized.(Å€Ñúÿÿÿÿ
+\squid:S1226"BIntroduce a new variable instead of reusing the parameter "value".(ÄÎšÄúÿÿÿÿ
+T
+squid:S106";Replace this usage of System.out or System.err by a logger.(ˆ•ô¦ùÿÿÿÿ
+6squid:S2129"!Remove this "Integer" constructor(ÑıÂš
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Õ»ëøùÿÿÿÿ8¿«¸†‹+
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(•Öå
+T
+squid:S106";Replace this usage of System.out or System.err by a logger.(•Àæµşÿÿÿÿ
+osquid:S00122"TAt most one statement is allowed per line, but 2 statements were found on this line.(ëÿôĞûÿÿÿÿ
+6squid:S2129"!Remove this "Integer" constructor(ÑıÂš

@@ -1,0 +1,62 @@
+
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(¤®•şÿÿÿÿ
+T
+squid:S106";Replace this usage of System.out or System.err by a logger.(Å­Ëİúÿÿÿÿ
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(¤¯”øÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+2squid:S2386"Make this member "protected".(ÕÀÁ©
+Csquid:S1125")Remove the literal "false" boolean value.(Õ«¸Ìıÿÿÿÿ
+3squid:S2095"Close this "PrintWriter".(ãä³‘şÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(Âşÿâûÿÿÿÿ
+„"squid:ClassVariableVisibilityCheck"XMake outVariables a static final constant or non-public and provide accessors if needed.(ÕÀÁ©
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(áŸÂÔşÿÿÿÿ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(øµÚıÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(¦å„Ìÿÿÿÿÿ
+Rsquid:S1213"8Move this variable to comply with Java Code Conventions.(±ŠÆüÿÿÿÿ
+ˆsquid:S1319"sThe type of the "inVariables" object should be an interface such as "Map" rather than the implementation "HashMap".(¤±õ¤
+:squid:S1166"%Either log or rethrow this exception.(ï­£Ä
+Csquid:S1125")Remove the literal "false" boolean value.(Öîş¥ùÿÿÿÿ
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(à­°
+€"squid:ClassVariableVisibilityCheck"TMake dotBoxes a static final constant or non-public and provide accessors if needed.(›Æ‹­
+?squid:S1166"%Either log or rethrow this exception.(‹¦ˆ”ùÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+™ squid:MethodCyclomaticComplexity"jThe Cyclomatic Complexity of this method "liveVariableAnalysis" is 32 which is greater than 10 authorized.(Î–Éşÿÿÿÿ
+Csquid:S1444".Make this "public static dotBoxes" field final(›Æ‹­
+„"squid:ClassVariableVisibilityCheck"XMake defVariables a static final constant or non-public and provide accessors if needed.(”âİç
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(´Şÿ°
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(¤±õ¤
+ƒ"squid:ClassVariableVisibilityCheck"WMake inVariables a static final constant or non-public and provide accessors if needed.(¤±õ¤
+asquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(Î–Éşÿÿÿÿ
+7squid:S2386"Make this member "protected".(áŸÂÔşÿÿÿÿ
+1squid:S1643"Use a StringBuilder instead.(ŒÕŠ¼
+2squid:S2386"Make this member "protected".(”âİç
+Zsquid:S2259"FNullPointerException might be thrown as 'classReader' is nullable here(£±
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(°³ÔÓÿÿÿÿÿ
+Gsquid:S1444"2Make this "public static outVariables" field final(ÕÀÁ©
+:squid:S1166"%Either log or rethrow this exception.(”ı¾
+Gsquid:S1444"2Make this "public static defVariables" field final(”âİç
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(á˜›¶
+:squid:S1166"%Either log or rethrow this exception.(‚¦•
+€squid:S1319"kThe type of the "set" object should be an interface such as "Set" rather than the implementation "HashSet".(ØÙÆã
+Lsquid:S1444"2Make this "public static useVariables" field final(áŸÂÔşÿÿÿÿ
+2squid:S2386"Make this member "protected".(›Æ‹­
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(›Æ‹­
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(ÕÀÁ©
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÒòÑäüÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(‰œ‰Õúÿÿÿÿ
+‰squid:S1319"tThe type of the "defVariables" object should be an interface such as "Map" rather than the implementation "HashMap".(”âİç
+…squid:S1319"pThe type of the "dotBoxes" object should be an interface such as "Map" rather than the implementation "HashMap".(›Æ‹­
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÍĞê„ÿÿÿÿÿ
+squid:S1319"tThe type of the "useVariables" object should be an interface such as "Map" rather than the implementation "HashMap".(áŸÂÔşÿÿÿÿ
+g
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ÊƒŸÿÿÿÿÿ
+Fsquid:S1444"1Make this "public static inVariables" field final(¤±õ¤
+‰"squid:ClassVariableVisibilityCheck"XMake useVariables a static final constant or non-public and provide accessors if needed.(áŸÂÔşÿÿÿÿ
+Ssquid:S1155">Use isEmpty() to check whether the collection is empty or not.(ÓŒ€
+2squid:S2386"Make this member "protected".(¤±õ¤
+b
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.( “Ë
+‰squid:S1319"tThe type of the "outVariables" object should be an interface such as "Map" rather than the implementation "HashMap".(ÕÀÁ©
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(”âİç

@@ -1,0 +1,10 @@
+
+isquid:S1132"MMove the "Method4" string literal on the left side of this string comparison.(Şİî8âíé¼Š+
+isquid:S1132"MMove the "Method3" string literal on the left side of this string comparison.(ûöİ„8Êéõˆ‹+
+hsquid:S1132"MMove the "Method1" string literal on the left side of this string comparison.(€—’$8 ¶ñ»Š+
+hsquid:S1132"MMove the "Method2" string literal on the left side of this string comparison.(€—’$8Êï»Š+
+8squid:S1220""Move this file to a named package.8¹¡à»Š+
+fsquid:S1132"LMove the "<init>" string literal on the left side of this string comparison.(ÏÑÜÿÿÿÿÿ
+ksquid:S1132"JMove the "main" string literal on the left side of this string comparison.(ÏÑÜÿÿÿÿÿ8§˜ÜºŠ+
+— squid:MethodCyclomaticComplexity"aThe Cyclomatic Complexity of this method "visitMethod" is 11 which is greater than 10 authorized.(±É•æùÿÿÿÿ8Êéõˆ‹+
+=squid:S1185"(Remove this method to simply inherit it.(ìí

@@ -1,0 +1,15 @@
+digraph cornellMethod { 
+"begin"->" int y = 2 "
+" int y = 2 "->" int x = 2 "
+" int x = 2 "->" int z = 0 "
+" int z = 0 "->" int e = 1 "
+" int e = 1 "->" while (x > 0) {"
+" while (x > 0) {"->" z = e*e "
+" while (x > 0) {"->" return x "
+" z = e*e "->" y = e*x "
+" y = e*x "->" if (x == 1) {"
+" if (x == 1) {"->" e = y "
+" if (x == 1) {"->" e = z "
+" e = y "->" while (x > 0) {"
+" e = z "->" while (x > 0) {"
+}
